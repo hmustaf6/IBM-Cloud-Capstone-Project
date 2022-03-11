@@ -1,11 +1,11 @@
 applications:
-  - name: djangoapp
+  - name: bestdealership
     routes:
-      - route: innovacar.mybluemix.net
+      - route: bestdjango.us-south.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
-  - name: djangoapp-nginx
+  - name: bestdealership-nginx
     routes:
-      - route: innovacar.mybluemix.net/static
+      - route: bestdjango.us-south.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack
